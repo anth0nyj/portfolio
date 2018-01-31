@@ -1,0 +1,55 @@
+* {
+  background-color: #36454f;
+  font-family: 'Futura', sans-serif;
+  color: white;
+}
+
+/* li {
+  display: inline;
+} */
+
+header h1, header nav {
+  display: inline;
+}
+
+h1 {
+  color: #ff3366;
+  font-weight: lighter;
+  /* font-family: */
+}
+
+p {
+  font-weight: lighter;
+}
+
+a {
+  color: #ff3366;
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+}
+
+#proj-nav {
+  width: 100%;
+  margin: 0 5px;
+  padding: 0;
+}
+
+#proj-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+#proj-nav ul li {
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+  text-align: center;
+}

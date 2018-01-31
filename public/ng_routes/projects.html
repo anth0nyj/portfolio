@@ -1,0 +1,15 @@
+<h4>Check out my stuff!</h4>
+<nav id="proj-nav">
+  <ul class="nav nav-pills nav-justified">
+    <li><a href="#" ng-click="ctrl.showProject='partners'">Partners in Climb</a></li>
+    <li><a href="#" ng-click="ctrl.showProject='ffo'">forFansOf</a></li>
+    <li><a href="#" ng-click="ctrl.showProject='earworm'">earworm</a></li>
+    <li><a href="#" ng-click="ctrl.showProject='connexus'">Connexus</a></li>
+    <li><a href="#" ng-click="ctrl.showProject='instajam'">InstaJam</a></li>
+  </ul>
+</nav>
+<iframe src="https://anth0nyj.github.io/partners_in_climb/" width="700" height="650" ng-if="ctrl.showProject=='partners'"></iframe>
+<iframe src="https://forfansof.herokuapp.com/" width="700" height="650" ng-if="ctrl.showProject=='ffo'"></iframe>
+<iframe src="http://earworm.herokuapp.com/" width="700" height="650" ng-if="ctrl.showProject=='earworm'"></iframe>
+<iframe src="http://entertheconnexus.herokuapp.com/" width="700" height="650" ng-if="ctrl.showProject=='connexus'"></iframe>
+<iframe src="https://anth0nyj.github.io/partners_in_climb/" width="700" height="650" ng-if="ctrl.showProject=='instajam'"></iframe>
