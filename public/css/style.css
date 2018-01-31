@@ -63,6 +63,10 @@ header .dropdown-menu li a:hover {
   color: white;
 }
 
+#name-link:hover {
+  text-decoration: none;
+}
+
 #name-title {
   text-align: right;
   margin-right: 10px;
