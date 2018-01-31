@@ -3,7 +3,7 @@ const app = express();
 
 app.use(express.static('public'));
 
-const PORT = 3005;
+const PORT = process.env.PORT || 3005;
 const server = app.listen(PORT, () => {
   console.log("==========================================");
   console.log("     Portfolio running on Port: ", PORT);
