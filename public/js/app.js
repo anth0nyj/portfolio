@@ -18,7 +18,7 @@ app.config(['$routeProvider','$locationProvider', function($routeProvider, $loca
     controllerAs: 'ctrl'
   });
 
-  $routeProvider.when('/about', {
+  $routeProvider.when('/', {
     templateUrl: '../ng_routes/about.html',
     controller: 'MainController',
     controllerAs: 'ctrl'

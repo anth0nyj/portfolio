@@ -4,12 +4,15 @@
   color: white;
 }
 
-/* li {
-  display: inline;
-} */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
 
-header h1, header nav {
-  display: inline;
+header span {
+  font-size: 24px;
 }
 
 h1 {

@@ -1,8 +1,5 @@
 const express = require('express');
 const app = express();
-// const angular = require('angular');
-// const angularRoute = require('angular-route');
-// const jquery = require('jquery');
 
 app.use(express.static('public'));
 
