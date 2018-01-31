@@ -6,7 +6,7 @@ app.controller("MainController", ["$http", function($http) {
 // app.controller("MainController", [function() {
   this.test = "Meow";
   this.phone = "(516) 232-4229";
-  this.showProject = null;
+  this.showProject = 'earworm';
 }]);
 
 app.config(['$routeProvider','$locationProvider', function($routeProvider, $locationProvider) {
