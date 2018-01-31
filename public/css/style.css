@@ -6,6 +6,15 @@
   color: white;
 }
 
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -78,10 +87,6 @@ header h1 {
   margin-bottom: 5px;
 }
 
-header h3 {
-  margin-top: 5px;
-}
-
 p {
   font-weight: lighter;
 }
@@ -97,6 +102,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex: 1 0 auto;
 }
 
 /* About Page Styling */
@@ -106,6 +112,18 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+#blurb-box {
+  width: 100vw;
+  font-size: 16px;
+}
+
+#blurb {
+  width: 40vw;
+  float: right;
+  text-align: justify;
+  margin-right: 20px;
 }
 
 #logo-box {
@@ -135,18 +153,21 @@ main {
 @media (max-width: 650px) {
   #logo-box .logo {
     max-height: 90px;
+    max-width: 100%;
   }
 }
 
 @media (max-width: 600px) {
   #logo-box .logo {
     max-height: 80px;
+    max-width: 100%;
   }
 }
 
 @media (max-width: 550px) {
   #logo-box .logo {
     max-height: 70px;
+    max-width: 100%;
   }
 }
 
@@ -171,6 +192,7 @@ main {
 
 iframe {
   width: 100%;
+  min-height: calc(100vh - 245px);
   text-align: center;
 }
 
@@ -200,4 +222,15 @@ input, textarea {
 
 td {
   margin: 20px;
+}
+
+footer {
+  height: 30px;
+  text-align: center;
+  padding-right: 10px;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: inherit;
 }
