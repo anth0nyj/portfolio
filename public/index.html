@@ -8,10 +8,9 @@
   <!-- Angular Routing -->
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.min.js" charset="utf-8"></script>
   <!-- jQuery Core -->
-  <!-- <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
   <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
   <!-- jQuery UI -->
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  <script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
   <!-- Bootstrap JS -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <!-- Local JS -->
@@ -33,14 +32,16 @@
             </a>
           <ul class="dropdown-menu">
             <li><a href="/">Home</a></li>
-            <!-- <li><a href="/about">About</a></li> -->
             <li><a href="/projects">Projects</a></li>
             <li><a href="/contact">Contact</a></li>
           </ul>
         </li>
       </ul>
     </nav>
-    <h1>Anthony J. Alvarez</h1>
+    <div id="name-title">
+      <h1>Anthony J. Alvarez</h1>
+      <h3>Full Stack Web Developer</h3>
+    </div>
   </header>
   <main ng-view></main>
   <footer></footer>

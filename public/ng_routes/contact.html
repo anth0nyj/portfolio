@@ -1,2 +1,23 @@
-<h2>Contact Me @:</h2>
-{{ctrl.phone}}
+<h2>Contact Me</h2>
+<div id="contact-box">
+  <form action="mailto:contact@ajalvarez.com" method="post">
+    <table>
+      <tr>
+        <td><label for="name">Name: </label></td>
+        <td><input align="right" type="text" name="name" /></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email: </label></td>
+        <td><input align="right" type="text" name="email" /></td>
+      </tr>
+      <tr>
+        <td><label for="message">Message: </label></td>
+        <td><textarea align="right" type="text" name="message"></textarea></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td id="btm-row"><input id="contact-btn" type="submit" name="submit" value="Submit"></td>
+      </tr>
+    </table>
+  </form>
+</div>
