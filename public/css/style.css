@@ -210,19 +210,34 @@ iframe {
 }
 
 /* Contact Styling */
+.page-head {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#contact-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 #contact-box {
   margin: 0;
   padding: 0;
-  width: 300px;
+  /* width: 300px; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  text-align: center;
+  align-items: center;
 }
 
 
 input, textarea {
-  margin-left: 30px;
-  width: 100%;
+  /* margin-left: 30px; */
+  margin: 0 auto;
+  /* width: 100%; */
 }
 
 #btm-row {
